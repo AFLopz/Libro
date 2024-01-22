@@ -1,0 +1,55 @@
+Ejercicio 1
+  git config --global user.name "[Alejandro Feliciano Lopez]"
+  git config --global user.email "[alexchiko05@gmail.com]"
+  git congig --global color.ui auto.
+  git congig --list
+
+Ejercicio 2
+  mkdir libro
+  cd libro
+  git init
+  echo "# Libro" >> README.md
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/AFLopz/Libro.git
+  git push -u origin main
+Ejercicio 3
+  1)
+    git status
+  2)
+    echo Capitulo 1: Introducción a Git > indice.txt
+    echo Capitulo 2: Flujo de trabajo basico >> indice.txt
+    echo Capitulo 3: Repositorios remotos >> indice.txt
+  3)
+    git status
+  4)
+    git add indice.txt
+  5)
+    git status
+
+Ejercicio 4
+  git commit -m "Añadido índice del libro"
+  git push
+
+Ejercicio 5
+  1)
+    git rm indice.txt -f
+    echo Capitulo 1: Introducción a Git > indice.txt
+    echo Capitulo 2: Flujo de trabajo basico >> indice.txt
+    echo Capitulo 3: Gestion de ramas >> indice.txt
+    echo Capitulo 4: Repositorios remotos >> indice.txt
+    git add indice.txt
+  2)
+    git diff
+  3)
+    git commit -m "Añadido capítulo 3 sobre gestión de ramas"
+    git push
+
+Ejercicio 6
+  1)
+    git show
+  2)
+    git commit --amend -m "Añadido capítulo 3 sobre gestión de ramas al índice"
+  3)
+    git status
