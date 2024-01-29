@@ -1,6 +1,5 @@
 Ejercicio 1
-	> Git branch bibliografía
-	> Git commit 
+	> Git branch bibliografíagit  
 	> Git branch 
 
 Ejercicio 2
@@ -12,7 +11,7 @@ Ejercicio 2
 	3)
 		> git commit -m "Añadido capítulo 4"
 	4)
-		> git log --all --graph --decorate
+		> git log --all --graph --decore
 
 Ejercicio 3 
   	1)
@@ -24,11 +23,47 @@ Ejercicio 3
  	4) 
    		> git commit -m "Añadida primera referencia bibliográfica"
 	5)
-   		> git log --all
+   		> git log --all --graph --decore
 
 Ejercicio 4
- 	 1)
-    		> git merge bibliografía
-  	 2)
-   		> git log --all	
-  
+ 	1)
+    		> git checkout master
+		> git merge bibliografía
+  	2)
+   		> git log --all	--graph --decore
+  	3)
+		> git branch -d bibliografía
+	4) 
+		> git log --all --graph --decore
+
+Ejercicio 5
+	1)
+		> git branch bibliografia
+	2)
+		> git checkout bibliografifia
+	3)
+		> echo *Ryan Hodson. Ry's Git Tutorial. Smashwords. >> Bibliografía.txt
+	4) 
+		> git add Bibliografía.txt
+		> git commit -m "Añadida nueva referencia bibliográfica"
+	5)
+		> git checkout master
+	6)
+		> echo *Loeliger, J. and McCullough, M. Version control with Git. O'Reilly. >> Bibliografía.txt
+	7)
+		> git add Bibliografía.txt
+		> git commit -m "Añadida nueva referencia bibliografica"
+	8) 
+		> git merge bibliografia
+	9)
+		> git rm bibliografia.txt
+		> git echo ... > Bibliografía.txt
+		> git echo ... >> Bibliografía.txt
+	10)
+		> git add Bibliografía.txt
+		> git commit -m "Resuelto conflicto de bibliografía."
+	11)
+		> git log --all --graph --decore
+	
+		
+
