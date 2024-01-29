@@ -1,0 +1,33 @@
+Ejercicio 1
+	> Git branch bibliografía
+	> Git commit 
+	> Git branch 
+
+Ejercicio 2
+	1)
+    > cd capitulos
+		> echo ... > capitulo4.txt
+	2)
+		> git add capitulo4.txt
+	3)
+		> git commit -m "Añadido capítulo 4"
+	4)
+		> git log --all --graph --decorate
+
+Ejercicio 3 
+  1)
+	  > git checkout bibliografía
+	2)
+    > Echo ... > bibliografía.txt
+  3)
+    > git add bibiliografía.txt
+  4) 
+    > git commit -m "Añadida primera referencia bibliográfica"
+  5)
+    > git log --all
+
+Ejercicio 4
+  1)
+    > git merge bibliografía
+  2)
+    > git log --all
