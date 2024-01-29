@@ -5,7 +5,7 @@ Ejercicio 1
 
 Ejercicio 2
 	1)
-    > cd capitulos
+		> cd capitulo
 		> echo ... > capitulo4.txt
 	2)
 		> git add capitulo4.txt
@@ -15,19 +15,20 @@ Ejercicio 2
 		> git log --all --graph --decorate
 
 Ejercicio 3 
-  1)
-	  > git checkout bibliografía
-	2)
-    > Echo ... > bibliografía.txt
-  3)
-    > git add bibiliografía.txt
-  4) 
-    > git commit -m "Añadida primera referencia bibliográfica"
-  5)
-    > git log --all
+  	1)
+	  	> git checkout bibliografía
+  	2)
+    		> Echo ... > bibliografía.txt
+  	3)
+   		> git add bibiliografía.txt
+ 	4) 
+   		> git commit -m "Añadida primera referencia bibliográfica"
+	5)
+   		> git log --all
 
 Ejercicio 4
-  1)
-    > git merge bibliografía
-  2)
-    > git log --all
+ 	 1)
+    		> git merge bibliografía
+  	 2)
+   		> git log --all	
+  
